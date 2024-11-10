@@ -27,20 +27,21 @@
     background-color: var(--Stone100);
 }
 
-h3, p, li, table{
-    font-family: "Outfit", serif;
+#prep-time, p, li, table{
+    font-family: 'Outfit', serif;
 }
 p, li, table{
     color: var(--Stone600);
     font-size: 16px;
 }
 
-h1, h2{
-    font-family: "Young Serif", serif;
+h1, h2, .attribution{
+    font-family: 'Young Serif', serif;
 }
 
 h1{
     color: var(--Stone900);
+    font-size: 40px;
 }
 
 h2{
@@ -91,9 +92,12 @@ h2{
     border-radius: 12px;
 }
 
-.cooking-time h3{
+#prep-time{
+    display: block;
    margin-bottom: 16px;
    color: var(--Rose800);
+   font-size: 20px;
+   font-weight: bold;
 }
 
 .cooking-time ul{
@@ -177,6 +181,13 @@ th.elements{
 color: var(--Brown800);
 }
 
+footer{
+    height: 56px;
+    background: var(--Stone100);
+    text-align: center;
+}
+
+
 @media only screen and (max-width: 768px) {
     .card{
         max-width: 616px;
@@ -205,6 +216,11 @@ max-height: 292px;
 }
 
 @media only screen and (min-width: 335px) and (max-width: 550px) {
+    h1{
+        font-size: 36px;
+    }
+   
+   
     .container{
         width: 100%;
         min-width: 375px;
